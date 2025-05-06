@@ -1,0 +1,104 @@
+body {
+    background: radial-gradient(
+    circle at 30% 50%, 
+    rgba(204, 183, 255, 0.5),   /* ungu lembut */
+    rgba(182, 214, 255, 0.5),   /* biru muda */
+    rgba(255, 255, 255, 0.8)    /* putih */
+    );
+}
+.highlight{
+    height: max-content;
+
+}
+
+.marker{
+    background-color: rgb(83, 83, 83) !important;
+    padding: 2px 5px !important;
+    border-radius: 3px !important;
+}
+
+.sub-li > li::marker{
+    color: rgb(153, 151, 151);
+}
+.aritmatika-text {
+    text-align: justify !important;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    
+}
+.wrapper{
+    text-align: justify !important;
+}
+.sub-judul{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.list-judul{
+    font-size: 1.3em;
+    font-weight: 750;
+}
+.nav-text {
+    text-align: justify !important;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgba(136, 136, 136, 1);
+    font-size: 1em !important;
+    
+}
+.nav-link {
+    font-weight: 600;
+}
+
+/* .main-content {
+    max-width: 60% !important;width: 100% !important; padding: 20px !important;
+} */
+.hero-text {
+    text-align: center;
+}
+.hero-text h4, .hero-text h3, .hero-text p {
+    text-align: center;
+}
+.hero-text button {
+    display: block;
+    margin: 20px auto;
+}
+.image-porto img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}
+@media (min-width: 768px) {
+    .hero-text {
+        text-align: left;
+    }
+    .hero-text h4, .hero-text h3, .hero-text p {
+        text-align: left;
+    }
+    .hero-text button {
+        margin: 0;
+    }
+    .image-porto {
+        text-align: right;
+    }
+}
+@media (max-width: 767.98px) {
+    .row {
+        flex-direction: column;
+    }
+    .image-porto {
+        order: -1; 
+        margin-bottom: 20px;
+    }
+    .hero-text {
+        order: 1; 
+    }
+}
+.navbar-light .navbar-toggler {
+    color: rgb(255, 255, 255) !important;
+    border-color: none !important;
+}
+
